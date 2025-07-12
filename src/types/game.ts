@@ -13,6 +13,7 @@ export interface GameState {
   gamePhase: 'setup' | 'playing' | 'battle' | 'finished';
   battleParticipants: Player[];
   movementDie: number;
+  battleDice: number[];
   lastRoll: number;
   winner: Player | null;
 }
